@@ -11,8 +11,17 @@ header{
 
 }
 
-.card {
+.card{
 	background: rgba( 2, 0, 36, 0.75 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.modal-content{
+	background: rgba( 255, 255, 255, 0.80 );
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 20.0px );
 	-webkit-backdrop-filter: blur( 20.0px );
@@ -27,7 +36,7 @@ h1{
 }
 
 a{
-	color: #0ad57a;
+	color: #FFFFFF;
 }
 
 p{
